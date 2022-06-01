@@ -694,6 +694,10 @@ figure {
     justify-content: center;
   }
 
+  .box-style-16 .story__heading a {
+    font-size: 1rem;
+  }
+
   .social > * {
     margin-bottom: 5px;
   }
