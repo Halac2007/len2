@@ -894,7 +894,10 @@ figure {
   }
   .box-style-16 .story__heading a {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
+  }
+  .site-footer .nav-footer .item a {
+    font-size: 0.9rem;
   }
   .navigation .rank-1 .wrap-iframe {
     display: none;
