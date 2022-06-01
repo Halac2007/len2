@@ -57,7 +57,7 @@ header .nav-bar {
 }
 .nav-bar .logo img {
   height: 50px;
-  width: 100%;
+
   top: 2px;
 }
 .navigation .nav-items a {
@@ -452,7 +452,7 @@ figure {
 
   color: var(--color-heading);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-size: 1.3rem;
 }
@@ -460,7 +460,7 @@ figure {
   font-weight: 400;
   font-size: 13px;
   line-height: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   color: #888;
   margin-top: 8px;
@@ -471,9 +471,9 @@ figure {
   margin-top: 8px;
   color: var(--color-summary);
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 /*------------footer-----------------*/
 .site-footer {
@@ -637,9 +637,7 @@ figure {
   .box-style-16 {
     max-width: 88ch;
   }
-  .site-footer .container {
-    max-width: 95ch;
-  }
+
   .share-mobile {
     display: none;
   }
@@ -680,7 +678,7 @@ figure {
     font-size: 1.5rem;
   }
   .site-footer .footer-info {
-    display: contents;
+    margin: 2rem;
   }
   .footer-info .rank-1 .wrap-text {
     text-align: center;
@@ -703,6 +701,9 @@ figure {
     margin-left: -2px;
   }
   .share-mobile {
+    display: none;
+  }
+  .site-footer .rank-1 .wrap-logo {
     display: none;
   }
 }
