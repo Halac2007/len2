@@ -677,9 +677,7 @@ figure {
   .container section .text-wrapper {
     font-size: 1.5rem;
   }
-  .site-footer .footer-info {
-    margin: 2rem;
-  }
+
   .footer-info .rank-1 .wrap-text {
     text-align: center;
   }
@@ -696,6 +694,10 @@ figure {
 
   .box-style-16 .story__heading a {
     font-size: 1rem;
+  }
+
+  .navigation .rank-1 .social {
+    display: none;
   }
 
   .social > * {
