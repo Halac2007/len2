@@ -855,8 +855,9 @@ figure {
   }
   .share-mobile .social {
     border-left: none;
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: -2rem;
+
+    padding-top: 1rem;
   }
   .share-pc {
     display: none;
