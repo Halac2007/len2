@@ -475,6 +475,7 @@ figure {
   line-height: 1.5;
   font-size: 1rem;
 }
+
 /*------------footer-----------------*/
 .site-footer {
   border-top: 1px solid rgb(240, 235, 235);
@@ -572,7 +573,7 @@ figure {
   line-height: 1.5rem;
 
   margin-bottom: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .site-footer .rank-1 .plo-link {
@@ -794,6 +795,13 @@ figure {
   }
   .site-footer .footer-info {
     display: grid;
+  }
+  .site-footer .nav-footer .item a {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .site-footer ul {
+    margin: 1rem 1rem;
   }
   .footer-info .rank-1 .wrap-text {
     text-align: center;
